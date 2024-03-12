@@ -1,0 +1,50 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .register-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .register-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .register-form .age-slider {
+    width: 100%;
+  }
+  
+  .register-form .policy-checkbox {
+    margin-right: 5px;
+  }
+  
+  .register-form .btnwrap {
+    text-align: center;
+  }
+  
+  .register-form .btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-form .btn:hover {
+    background-color: #218838;
+  }
+  
