@@ -1,42 +1,70 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #272822;
+  color: #f8f8f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
 .login-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .login-form .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .login-form label {
-    display: block;
-    font-weight: bold;
-  }
-  
-  .login-form .form-control {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ced4da;
-    border-radius: 4px;
-  }
-  
-  .login-form .btnwrap {
-    text-align: center;
-  }
-  
-  .login-form .btn {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .login-form .btn:hover {
-    background-color: #218838;
-  }
-  
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #272822;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #75715e;
+  border-radius: 4px;
+  background-color: #3E3D32;
+  color: #f8f8f2;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #66D9EF;
+}
+
+/* Button styles */
+.btnwrap {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #66D9EF;
+  color: #272822;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4CB7E6;
+}
+
+/* Link styles */
+a {
+  color: #66D9EF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
