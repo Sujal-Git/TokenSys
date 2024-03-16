@@ -1,0 +1,5 @@
+import { createClient } from '@supabase/supabase-js';
+
+const supabase = createClient(projecturl,Password);
+
+export default supabase;
