@@ -5,6 +5,7 @@ import supabase from './supabaseClient';
 
 function Register() {
   const [name, setName] = useState('');
+  //coments added
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
